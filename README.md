@@ -5,5 +5,5 @@ Dockerfile for the dutu/poloLender lending bot
 
 ```
 docker build -t pololender .
-docker run --name polobot -p 5000:5000 pololender
+docker run --name pololender -p 5000:5000 pololender
 ```
